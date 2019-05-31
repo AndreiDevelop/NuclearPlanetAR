@@ -23,7 +23,7 @@ PrefabInstance:
     - target: {fileID: 7196163514713201596, guid: adf40d04ea0db8d4c99e925a21cb69d6,
         type: 3}
       propertyPath: m_Name
-      value: Planet Props Cylinder
+      value: Planet Props Cylinder Variant
       objectReference: {fileID: 0}
     - target: {fileID: 5537492839547085930, guid: adf40d04ea0db8d4c99e925a21cb69d6,
         type: 3}
@@ -85,6 +85,31 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+    - target: {fileID: 1722312763587029860, guid: adf40d04ea0db8d4c99e925a21cb69d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3793892346010613465, guid: adf40d04ea0db8d4c99e925a21cb69d6,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+    - target: {fileID: 319720459629900964, guid: adf40d04ea0db8d4c99e925a21cb69d6,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2.0658875
+      objectReference: {fileID: 0}
+    - target: {fileID: 319720459629900964, guid: adf40d04ea0db8d4c99e925a21cb69d6,
+        type: 3}
+      propertyPath: m_Center.x
+      value: 0.00001527369
+      objectReference: {fileID: 0}
+    - target: {fileID: 319720459629900964, guid: adf40d04ea0db8d4c99e925a21cb69d6,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.0029754639
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7078858751588065183, guid: adf40d04ea0db8d4c99e925a21cb69d6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: adf40d04ea0db8d4c99e925a21cb69d6, type: 3}
