@@ -10,14 +10,14 @@ public class PositionalManager
 		Quaternion newRotation = Quaternion.identity;
 
 		objectToPlaceTransform.position = newPosition;
-		objectToPlaceTransform.rotation = newRotation;
+        objectToPlaceTransform.rotation = newRotation;
 
-		objectToPlaceTransform.LookAt(planet.transform);
-		objectToPlaceTransform.Rotate(-90, 0, 0);
-     }
+        objectToPlaceTransform.LookAt(planet.transform);
+        objectToPlaceTransform.Rotate(-90, 0, 0);
+    }
 
 
-	private static Vector3 CalculatePosionReplaceObjectOnPlanet(Transform objectToPlaceTransform, Transform planetTransform)
+	public static Vector3 CalculatePosionReplaceObjectOnPlanet(Transform objectToPlaceTransform, Transform planetTransform)
 	{
 		return Random.onUnitSphere * ((planetTransform.localScale.x/2) + objectToPlaceTransform.localScale.y * 0.5f) + planetTransform.position;
 	}
