@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class PlanetPropsHolder : MonoBehaviour
 {
-    [SerializeField] private PlanetProps _prefab;
+    [SerializeField] protected PlanetProps _prefab;
 
-    [SerializeField] private int _count;
+    [SerializeField] protected int _count;
     public int Count => _count;
 
-    [SerializeField] private List<PlanetProps> _planetProps = new List<PlanetProps>();
+    [SerializeField] protected List<PlanetProps> _planetProps = new List<PlanetProps>();
     public List<PlanetProps> PlanetProps => _planetProps;
 
     public virtual void Initialize(PlanetController planetController)

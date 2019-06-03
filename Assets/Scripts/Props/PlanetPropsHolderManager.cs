@@ -6,6 +6,7 @@ using System.Linq;
 public class PlanetPropsHolderManager : MonoBehaviour
 {
     [SerializeField] private List<PlanetPropsHolder> _propsHolderList;
+    public List<PlanetPropsHolder> PropsHolderList => _propsHolderList;
 
     private Coroutine _initializePropsCoroutine;
     private Coroutine _clearPropsCoroutine;

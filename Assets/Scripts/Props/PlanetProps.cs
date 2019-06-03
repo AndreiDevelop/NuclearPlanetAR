@@ -7,21 +7,13 @@ public class PlanetProps : MonoBehaviour
     public const string TAG_NAME = "Planet Props";
 
     private GameObject _gameObject;
-    private PlanetController _planetController;
+    public GameObject GameObject => _gameObject;
+
+    protected PlanetController _planetController;
 
     private void Awake()
     {
         _gameObject = gameObject;
-    }
-
-    public virtual void Activate(PlanetController planetController)
-    {
-
-    }
-
-    public virtual void Deactivate(PlanetController planetController)
-    {
-
     }
 
     public virtual void Initialize(PlanetController planetController)
@@ -44,7 +36,6 @@ public class PlanetProps : MonoBehaviour
     {
         if(string.Equals(other.tag, TAG_NAME))
         {
-            Debug.Log("Collide");
             ReplaceTheObject();
         }
     }

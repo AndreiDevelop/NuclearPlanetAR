@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlanetRotation : MonoBehaviour, IPlanetRotation
 {
-    [SerializeField] private float _rotateTime = 5f;
+    [SerializeField] private float _rotateTime = 0.05f;
     public float RotateTime { get => _rotateTime; set => _rotateTime = value; }
 
     public void StartRotate()
