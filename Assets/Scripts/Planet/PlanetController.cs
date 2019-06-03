@@ -20,12 +20,12 @@ public class PlanetController : MonoBehaviour
     public virtual void InitializePlanet()
     {
         _planetPropsHolderManager.InitializePropsHolders(this);
-        _planetRotation.StartRotate();
+        _planetRotation?.StartRotate();
     }
 
     public virtual void ClearPlanet()
     {
         _planetPropsHolderManager.ClearPropsHolders(this);
-        _planetRotation.StopRotate();
+        _planetRotation?.StopRotate();
     }
 }

@@ -95,6 +95,16 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+    - target: {fileID: 1996259410500177525, guid: adf40d04ea0db8d4c99e925a21cb69d6,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1996259410500177525, guid: adf40d04ea0db8d4c99e925a21cb69d6,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 319720459629900964, guid: adf40d04ea0db8d4c99e925a21cb69d6,
         type: 3}
       propertyPath: m_Size.y
